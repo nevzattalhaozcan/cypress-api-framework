@@ -7,7 +7,9 @@ module.exports = defineConfig({
       requestMode: false,
       hideCredentials: true 
     },
+    reporter: 'cypress-mochawesome-reporter',
     setupNodeEvents(on, config) {
+      require('cypress-mochawesome-reporter/plugin')(on);
     },
   },
 });

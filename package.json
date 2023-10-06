@@ -4,7 +4,7 @@
   "description": "this is a tiny api project for crud operations written in cypress",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "npx cypress run"
   },
   "keywords": [
     "cy",
@@ -13,7 +13,8 @@
   "author": "nevzattalhaozcan",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^13.3.0"
+    "cypress": "^13.3.0",
+    "cypress-mochawesome-reporter": "^3.6.0"
   },
   "dependencies": {
     "cypress-plugin-api": "^2.11.1"
