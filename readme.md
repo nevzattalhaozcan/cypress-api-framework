@@ -19,3 +19,5 @@ I performed my tests on PetStore API and in its Users folder.
 
 ### Reports
 I used cypress-mochawesome-reporter plugin to create my reports. You can see it in `cypress\reports\html\index.html`
+
+#### [Nevzat Talha Ozcan](https://www.linkedin.com/in/nevzattalhaozcan/) - QA Automation Engineer
